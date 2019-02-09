@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+
+
+<div class="profile">
+    <div class="upper">
+        <div class="profile-pic">
+            <img src="{{url_for('static', filename='boy.jpeg'}}"></img>
+            
+        </div>
+        <div class="details">
+            <h1>Leroy Palmer</h1>
+            <h4>@leroypalmer</h4>
+            <h4>Kingston, Jamaica</h4>
+            <h4>Joined Janurary, 2018</h4>
+        </div>
+        
+    </div>
+    <div class="lower">
+        <div class="bio">
+            <p>I am a boy. I am smart and talented young man, I often struggle to 
+            understand some of the concepts done in class nevertheles, i try
+            my best to do well. I am expected to graduate the year 2019.</p>
+            
+        </div>
+        <div class="stats">
+            
+        </div>
+        <div class="controls">
+            
+        </div>
+        
+    </div>
+    
+</div>
+
+
+
+
+{% endblock %}

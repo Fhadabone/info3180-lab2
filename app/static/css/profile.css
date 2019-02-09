@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile{
+    display:flex;
+    flex-direction:column;
+    margin: 20px;
+    padding: 20px;
+}
+.profile div{
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile-pic img{
+    border-radius: 50%;
+}
